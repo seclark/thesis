@@ -1,0 +1,107 @@
+%
+% Packages to be used in the thesis.
+%
+
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{booktabs}
+\usepackage{url}
+
+\usepackage[final]{graphicx}
+
+\usepackage{color, hyperref}
+\definecolor{linkcolor}{rgb}{0,0,0.2}
+\hypersetup{colorlinks=true,linkcolor=linkcolor,citecolor=linkcolor,
+            filecolor=linkcolor,urlcolor=linkcolor}
+\hypersetup{pageanchor=false}
+
+\usepackage{appendix}
+\usepackage{fancyhdr}
+\usepackage{url}
+
+\usepackage{subfig}
+
+\usepackage{titlesec}
+
+% Bibliography:
+\usepackage{natbib}
+\bibliographystyle{apj}
+
+% AAS macros
+\usepackage{aasmacro} % Ripped out of AAStex
+
+%
+% Definitions
+%
+
+\newcommand{\article}{\textsl{Thesis}}
+
+% Stats / probability
+\newcommand{\given}{\,|\,}
+\newcommand{\norm}{\mathcal{N}}
+
+% Maths
+\newcommand{\dd}{\mathrm{d}}
+\newcommand{\transpose}[1]{{#1}^{\mathsf{T}}}
+\newcommand{\inverse}[1]{{#1}^{-1}}
+\newcommand{\mean}[1]{\left< #1 \right>}
+\newcommand{\ident}{\mathbb{1}} % identity matrix
+
+
+% Astronomy
+\newcommand{\DM}{{\rm DM}}
+\newcommand{\feh}{\ensuremath{{[{\rm Fe}/{\rm H}]}}}
+
+% Unit shortcuts
+\newcommand{\msun}{\ensuremath{\mathrm{M}_\odot}}
+\newcommand{\kms}{\ensuremath{\mathrm{km}~\mathrm{s}^{-1}}}
+\newcommand{\kpc}{\ensuremath{\mathrm{kpc}}}
+\newcommand{\kmskpc}{\ensuremath{\mathrm{km}~\mathrm{s}^{-1}~\mathrm{kpc}^{-1}}}
+
+% Misc.
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\todo}[1]{{\color{magenta} TODO: #1}}
+
+% Packages / projects / programming
+\newcommand{\package}[1]{\textsf{#1}}
+\newcommand{\project}[1]{{\textsl{#1}}}
+
+\newcommand{\github}{\project{GitHub}}
+\newcommand{\python}{\texttt{Python}}
+
+%\usepackage{natbib}
+%\usepackage{graphicx} % replaces epsfig
+%% \usepackage{deluxetable52} % replaces deluxetable
+%\usepackage{aasmacro} % replaces aastex_hack
+%\usepackage{afterpage} % allows forced float output without breaking text flow
+%\usepackage{pxfonts} % nice font
+%\usepackage[nottoc,numbib]{tocbibind}
+%\usepackage{setspace}
+%%\usepackage{morefloats}
+%\usepackage{float}
+%\usepackage{verbatim}
+%
+%%\usepackage[margin=10pt,font={small,singlespacing},labelfont=bf,singlelinecheck=off]{caption}
+%
+%%added by Emily
+%\usepackage{rotating}
+%\usepackage{multirow}
+%%\usepackage{mathabx}
+%
+%%added by Destry
+%%\usepackage{rotating,amsmath}    % removed by Yuan --- it was causing errors
+%\usepackage{lscape}
+%\usepackage{verbatim}
+%
+%%added by Yuan
+%\usepackage[3D]{movie15}
+%\usepackage{hyperref}
+%\usepackage{multirow}
+%\usepackage[flushleft]{threeparttable}
+%%\usepackage{epstopdf}
+%
+%% Added by Munier
+%\usepackage{color}
+%\usepackage{enumitem}
+%\usepackage{booktabs}
